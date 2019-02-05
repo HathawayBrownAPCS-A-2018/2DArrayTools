@@ -64,11 +64,12 @@ public class TwoDIntArray
     }
     
     /**
-     *     Finds the index of the largest value in the 2D array
+     *     Finds the index of the target value in the 2D array.
      *     
+     *     @param  n  The number to look for in the array
      *     @return  .... WHAT ????  How to do this?
      */
-    public int[] getMaxIndex ()
+    public int[] indexOf (int n)
     {
         return new int[2];   // placeholder.  Your code will replace this
     }
@@ -114,5 +115,8 @@ public class TwoDIntArray
         System.out.println("The average value is " + myArray.getAverage());
         System.out.println("The largest element is " + myArray.getMaxValue() +
            " in row " + " and column " );
+           
+        System.out.println("The sum of row #3 is " + myArray.rowSum(3));
+        System.out.println("The sum of column #4 is " + myArray.colSum(4));
     }
 }
