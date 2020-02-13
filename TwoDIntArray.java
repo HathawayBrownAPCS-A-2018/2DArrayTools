@@ -24,13 +24,6 @@ public class TwoDIntArray
      */
     public void fillRandom (int min, int max)
     {
-        for (int row = 0; row < nums.length; row++)
-        {
-            for (int col = 0; col < nums[row].length; col++)
-            {
-                nums[row][col] = 0; // fill this in!
-            }
-        }
     }
     
     /**
